@@ -60,9 +60,54 @@ namespace FundamentosCSHARP
 
             // 4-interfaces
 
-            var bebidaAlcholoica = new Cerveza(100);
-            MostrarRecomendacion(bebidaAlcholoica);
-            List<string> hola = new List<string>();
+            //var bebidaAlcholoica = new Cerveza(100);
+            //MostrarRecomendacion(bebidaAlcholoica);
+            //List<string> hola = new List<string>();
+
+            // 5-conexiones a base de datos, obtener informacion
+
+            //CervezaBD cervezaBD = new CervezaBD();
+            //var cervezas = cervezaBD.Get();
+
+            //foreach (var cerveza in cervezas)
+            //{
+            //    Console.WriteLine(cerveza.Nombre);
+            //}
+
+            // 6-conexión a bd, crear, editar, eliminar
+
+            CervezaBD cervezaBD = new CervezaBD();
+
+            //// insertamos nueva cerveza // se crea un universo con las llaves
+            //{
+            //    Cerveza cerveza = new Cerveza(29, "Club Colombia");
+            //    cerveza.Marca = "Bavaria";
+            //    cerveza.Alcohol = 15;
+
+            //    cervezaBD.Add(cerveza);
+            //}
+            // editar una cerveza
+            //{
+            //    Cerveza cerveza = new Cerveza(5, "Pale ale");
+            //    cerveza.Marca = "Minerva";
+            //    cerveza.Alcohol = 5;
+
+            //    cervezaBD.Edit(cerveza, 5);
+            //}
+            // eliminar una cerveza
+            {
+                
+                cervezaBD.Delete(5);
+            }
+
+
+            // obtener todas las cervezas
+            var cervezas = cervezaBD.Get();
+
+            foreach (var cerveza in cervezas)
+            {
+                Console.WriteLine(cerveza.Nombre);
+            }
         }
 
         static void MostrarRecomendacion(IBebidaAlcoholica bebida)
