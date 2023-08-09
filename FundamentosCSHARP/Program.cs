@@ -1,5 +1,7 @@
 ﻿using System;
 using FundamentosCSHARP.Models;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 namespace FundamentosCSHARP
 {
     class Program
@@ -95,25 +97,39 @@ namespace FundamentosCSHARP
             //    cervezaBD.Edit(cerveza, 5);
             //}
             // eliminar una cerveza
-            {
-                
-                cervezaBD.Delete(5);
-            }
+            ////{
+
+            ////    cervezaBD.Delete(5);
+            ////}
 
 
-            // obtener todas las cervezas
-            var cervezas = cervezaBD.Get();
+            ////// obtener todas las cervezas
+            ////var cervezas = cervezaBD.Get();
 
-            foreach (var cerveza in cervezas)
-            {
-                Console.WriteLine(cerveza.Nombre);
-            }
+            ////foreach (var cerveza in cervezas)
+            ////{
+            ////    Console.WriteLine(cerveza.Nombre);
+            ////}
+            ///
+
+            // 07 Serialización de objetos y deserializacion de JSON
+
+            // serializacion
+
+            //Cerveza cerveza = new Cerveza(10, "Cerveza");
+            //string miJson = JsonSerializer.Serialize(cerveza);
+            //File.WriteAllText("objeto.txt", miJson);
+
+            //deserializacion
+            string miJson = File.ReadAllText("objeto.txt");
+            Cerveza cerveza = JsonSerializer.Deserialize<Cerveza>(miJson);
+
         }
 
-        static void MostrarRecomendacion(IBebidaAlcoholica bebida)
-        {
-            bebida.MaxRecomendado();
-        }
+        //static void MostrarRecomendacion(IBebidaAlcoholica bebida)
+        //{
+        //    bebida.MaxRecomendado();
+        //}
     }
 }
 
