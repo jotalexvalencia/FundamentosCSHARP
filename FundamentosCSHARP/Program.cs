@@ -2,11 +2,15 @@
 using FundamentosCSHARP.Models;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+
+using System.Threading.Tasks;
+using System.Net.Http;
 namespace FundamentosCSHARP
 {
     class Program
     {
-        static void Main(string[] args)
+        //static void Main(string[] args) // original
+        static async Task Main(string[] args)
         {
             //byte numero = 255; // 0 -255 no permite negativos
             //sbyte numero2 = -128; // 0 - 255 puedo poner números negativos se reduce desde -128 hasta 127
@@ -78,7 +82,7 @@ namespace FundamentosCSHARP
 
             // 6-conexión a bd, crear, editar, eliminar
 
-            CervezaBD cervezaBD = new CervezaBD();
+            //CervezaBD cervezaBD = new CervezaBD();
 
             //// insertamos nueva cerveza // se crea un universo con las llaves
             //{
@@ -120,9 +124,26 @@ namespace FundamentosCSHARP
             //string miJson = JsonSerializer.Serialize(cerveza);
             //File.WriteAllText("objeto.txt", miJson);
 
-            //deserializacion
-            string miJson = File.ReadAllText("objeto.txt");
-            Cerveza cerveza = JsonSerializer.Deserialize<Cerveza>(miJson);
+            ////deserializacion
+            //string miJson = File.ReadAllText("objeto.txt");
+            //Cerveza cerveza = JsonSerializer.Deserialize<Cerveza>(miJson);
+
+            #region 08 Solicitudes a servicios web por HTTP GET
+                string url = "https://jsonplaceholder.typicode.com/posts";
+                HttpClient client = new HttpClient();
+                
+                var httpResponse = await client.GetAsync(url);
+
+                if(httpResponse.IsSuccessStatusCode) 
+                { 
+                    var content = await httpResponse.Content.ReadAsStringAsync();
+                    List<Models.Post> post = 
+                    JsonSerializer.Deserialize<List<Models.Post>>(content);
+                }
+
+
+
+            #endregion
 
         }
 
