@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_TiposDatosyVar", "01_Tip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ClasesObjetosConstructores", "02_ClasesObjetosConstructores\02_ClasesObjetosConstructores.csproj", "{669C7A52-AC7E-4CFD-A084-523E0891D339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ArreglosListas", "3_ArreglosListas\3_ArreglosListas.csproj", "{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ArreglosListas", "3_ArreglosListas\03_ArreglosListas.csproj", "{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
