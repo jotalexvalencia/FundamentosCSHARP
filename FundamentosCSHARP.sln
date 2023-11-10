@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_TiposDatosyVar", "01_TiposDatosyVar\01_TiposDatosyVar.csproj", "{0ADEB8FC-F4CD-4AE5-89AD-55428BFBECE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_TiposDatosyVar", "01_TiposDatosyVar\01_TiposDatosyVar.csproj", "{0ADEB8FC-F4CD-4AE5-89AD-55428BFBECE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClasesObjetosConstructores", "02_ClasesObjetosConstructores\02_ClasesObjetosConstructores.csproj", "{669C7A52-AC7E-4CFD-A084-523E0891D339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ClasesObjetosConstructores", "02_ClasesObjetosConstructores\02_ClasesObjetosConstructores.csproj", "{669C7A52-AC7E-4CFD-A084-523E0891D339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ArreglosListas", "3_ArreglosListas\3_ArreglosListas.csproj", "{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{669C7A52-AC7E-4CFD-A084-523E0891D339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669C7A52-AC7E-4CFD-A084-523E0891D339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669C7A52-AC7E-4CFD-A084-523E0891D339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
