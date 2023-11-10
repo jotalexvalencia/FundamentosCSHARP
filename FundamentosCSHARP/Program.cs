@@ -199,28 +199,32 @@ namespace FundamentosCSHARP
 
             // DELETE
 
-            string url = "https://jsonplaceholder.typicode.com/posts/99";
-            var client = new HttpClient();
+            //string url = "https://jsonplaceholder.typicode.com/posts/99";
+            //var client = new HttpClient();
 
-            Post post = new Post()
-            {
-                userId = 50,
-                body = "Hola como estan",
-                title = "titulo de saludo"
-            };
+            //Post post = new Post()
+            //{
+            //    userId = 50,
+            //    body = "Hola como estan",
+            //    title = "titulo de saludo"
+            //};
 
             //var data = JsonSerializer.Serialize<Post>(post);
             //HttpContent content =
             //    new StringContent(data, System.Text.Encoding.UTF8, "application/json");
 
-            var httpResponse = await client.DeleteAsync(url);
+            //var httpResponse = await client.DeleteAsync(url);
 
-            if (httpResponse.IsSuccessStatusCode)
-            {
-                var result = await httpResponse.Content.ReadAsStringAsync();
+            //if (httpResponse.IsSuccessStatusCode)
+            //{
+            //    var result = await httpResponse.Content.ReadAsStringAsync();
 
-               // var postResult = JsonSerializer.Deserialize<Post>(result);
-            }
+            //   // var postResult = JsonSerializer.Deserialize<Post>(result); ojo aca no va en delete
+            //}
+            #endregion
+
+            #region 10 Genericos Generics
+
             #endregion
 
         }
