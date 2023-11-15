@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ClasesObjetosConstructor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_ArreglosListas", "3_ArreglosListas\03_ArreglosListas.csproj", "{6D8DC287-9BD7-4E58-A6F2-BF3F09F4E37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Interfaces", "04_Interfaces\04_Interfaces.csproj", "{A18F774A-B4D8-4068-A55C-CEC7C1E6C267}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Interfaces", "04_Interfaces\04_Interfaces.csproj", "{A18F774A-B4D8-4068-A55C-CEC7C1E6C267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ConexionBDObtenerInformacion", "05_ConexionBDObtenerInformacion\05_ConexionBDObtenerInformacion.csproj", "{D4A3B176-4D3B-4B86-85A1-81D7D4952279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ConexionBDObtenerInformacion", "05_ConexionBDObtenerInformacion\05_ConexionBDObtenerInformacion.csproj", "{D4A3B176-4D3B-4B86-85A1-81D7D4952279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_ConexionBDCRUD", "06_ConexionBDCRUD\06_ConexionBDCRUD.csproj", "{1A9077AD-ECC1-490B-877B-D749C80ABAE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D4A3B176-4D3B-4B86-85A1-81D7D4952279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4A3B176-4D3B-4B86-85A1-81D7D4952279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4A3B176-4D3B-4B86-85A1-81D7D4952279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9077AD-ECC1-490B-877B-D749C80ABAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9077AD-ECC1-490B-877B-D749C80ABAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9077AD-ECC1-490B-877B-D749C80ABAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9077AD-ECC1-490B-877B-D749C80ABAE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
