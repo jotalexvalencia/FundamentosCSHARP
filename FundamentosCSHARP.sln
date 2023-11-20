@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_SerializacionDeserializa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_SolicitudHTTPGET", "08_SolicitudHTTPGET\08_SolicitudHTTPGET.csproj", "{8568728F-23B7-43E0-BD18-C762F912225E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_EnvioInformacionServiciosWebHTTPPostPutDelete", "09_EnvioInformacionServiciosWebHTTPPostPutDelete\09_EnvioInformacionServiciosWebHTTPPostPutDelete.csproj", "{77E0A2EC-583D-4CF1-BEB6-8D86CB991D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_EnvioInformacionServiciosWebHTTPPostPutDelete", "09_EnvioInformacionServiciosWebHTTPPostPutDelete\09_EnvioInformacionServiciosWebHTTPPostPutDelete.csproj", "{77E0A2EC-583D-4CF1-BEB6-8D86CB991D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Generics", "10_Generics\10_Generics.csproj", "{49D4E35A-B36A-42DD-ABD3-FE8E19656619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{77E0A2EC-583D-4CF1-BEB6-8D86CB991D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E0A2EC-583D-4CF1-BEB6-8D86CB991D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E0A2EC-583D-4CF1-BEB6-8D86CB991D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D4E35A-B36A-42DD-ABD3-FE8E19656619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D4E35A-B36A-42DD-ABD3-FE8E19656619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D4E35A-B36A-42DD-ABD3-FE8E19656619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D4E35A-B36A-42DD-ABD3-FE8E19656619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
