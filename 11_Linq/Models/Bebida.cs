@@ -1,6 +1,6 @@
 ﻿namespace _11_Linq.Models
 {
-    class Bebida
+    public class Bebida
     {
         public string Nombre { get; set; }
         public int Cantidad { get; set; }

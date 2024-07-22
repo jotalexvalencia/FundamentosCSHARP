@@ -1,6 +1,6 @@
 ﻿namespace _11_Linq.Models
 {
-    class Cerveza : Bebida, IBebidaAlcoholica, IRequestable
+    public class Cerveza : Bebida, IBebidaAlcoholica, IRequestable
     {
         public int Alcohol { get; set; }
         public string Marca { get; set; }
