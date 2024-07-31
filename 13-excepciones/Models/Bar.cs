@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _13_Linq.Models
+namespace _13_excepciones.Models
 {
-    public class BarData
+    public class Bar
     {
-        string Nombre { get; set; }
-        public List<Bebida> bebidas = new List<Bebida>();
+        public string Nombre { get; set; }
+        public List<Cerveza> cervezas = new List<Cerveza>();
 
-        public BarData(string Nombre)
+        public Bar(string Nombre)
         {
             this.Nombre = Nombre;
 

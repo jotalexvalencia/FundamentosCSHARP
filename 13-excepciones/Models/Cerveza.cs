@@ -1,4 +1,6 @@
-﻿namespace _13_Linq.Models
+﻿using _13_Linq.Models;
+
+namespace _13_excepciones.Models
 {
     public class Cerveza : Bebida, IBebidaAlcoholica, IRequestable
     {

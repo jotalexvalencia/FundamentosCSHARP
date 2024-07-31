@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using _13_excepciones.Models;
+using Microsoft.Data.SqlClient;
 
 namespace _13_Linq.Models
 {

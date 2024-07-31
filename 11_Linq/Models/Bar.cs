@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _11_Linq.Models
+namespace _13_Linq.Models
 {
     public class Bar
     {

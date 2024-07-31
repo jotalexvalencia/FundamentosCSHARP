@@ -1,4 +1,4 @@
-﻿using _13_Linq.Models;
+﻿using _13_excepciones.Models;
 
 namespace _13_Linq.Models
 {

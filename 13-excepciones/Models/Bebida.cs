@@ -1,4 +1,4 @@
-﻿namespace _13_Linq.Models
+﻿namespace _13_excepciones.Models
 {
     public class Bebida
     {
