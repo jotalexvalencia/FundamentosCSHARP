@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Generics", "10_Generics\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Linq", "11_Linq\11_Linq.csproj", "{743A96CF-3B81-43DE-9668-1FA47CCFF33F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_excepciones", "13-excepciones\13_excepciones.csproj", "{57AC0633-A2A0-49D0-B38E-97D0013101FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_excepciones", "13-excepciones\13_excepciones.csproj", "{57AC0633-A2A0-49D0-B38E-97D0013101FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Delegados_Func_Action", "14_Delegados_Func_Action\14_Delegados_Func_Action.csproj", "{2BA3C995-EBE3-46AC-8DCD-FEEE9BE0C949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{57AC0633-A2A0-49D0-B38E-97D0013101FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57AC0633-A2A0-49D0-B38E-97D0013101FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57AC0633-A2A0-49D0-B38E-97D0013101FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA3C995-EBE3-46AC-8DCD-FEEE9BE0C949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA3C995-EBE3-46AC-8DCD-FEEE9BE0C949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA3C995-EBE3-46AC-8DCD-FEEE9BE0C949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA3C995-EBE3-46AC-8DCD-FEEE9BE0C949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
